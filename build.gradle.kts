@@ -10,10 +10,6 @@ repositories {
 }
 
 dependencies {
-    testImplementation(platform("org.junit:junit-bom:5.10.0"))
-    testImplementation("org.junit.jupiter:junit-jupiter")
-}
-
-tasks.test {
-    useJUnitPlatform()
+    implementation("net.minestom:minestom-snapshots:1_21_4-6490538291")
+    implementation("ch.qos.logback:logback-classic:1.5.6")
 }
